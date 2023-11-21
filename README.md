@@ -86,7 +86,7 @@ Compute a diagonal for a filter matrix by evaluating:
 $$f_i = \sigma_i^2 / (\sigma_i^2 + \epsilon)$$
 
 The idea is to compute a loop over $i$ for all of the m singular values.
-Roughly speaking multiplication by $f_i$ will filter a singular value when
+Roughly speaking, multiplication by $f_i$ will filter a singular value when
 
 $$\sigma_i \lt \epsilon .$$
 
@@ -115,9 +115,9 @@ $$MSE=\frac{1}{N} \sum_{i=1}^{N} (y_i-\hat{y_i})^2$$
 
 Are the degree of the polynomial and the MSE linked?
 
-### Part 2: Real data analysis
-Now we are ready to deal with real data! Feel free to use your favorite time series data or work with the Rhine level data we provide.
-The file `./data/pegel.tab` contains the Rhine water levels measured in Bonn over the last 100 years. 
+### Part 2: Real data analysis ( optional )
+Now, we are ready to deal with actual data! Feel free to use your favourite time series data or work with the Rhine-level data we provide.
+The file `./data/pegel.tab` contains the Rhine water levels measured in Bonn over the last 100 years. Can we find a trend?
 Data source: https://pegel.bonn.de.
 
 #### Regression:
