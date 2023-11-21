@@ -54,7 +54,7 @@ What do you see?
 
 
 
-#### Regularization:
+#### Regularization ( optional ):
 Unfortunately, the fit is not ideal. The polynomial tracks the noise.
 The singular value decomposition (SVD) can help!
 Recall that the SVD turns a matrix
